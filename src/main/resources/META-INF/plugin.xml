@@ -10,9 +10,13 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="com.github.khicchi.codestream.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <fileDocumentManagerListener
+          implementation="com.github.khicchi.codestream.listeners.MyFileDocumentListener"/>
     </extensions>
 
     <applicationListeners>
         <listener class="com.github.khicchi.codestream.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
     </applicationListeners>
+
+
 </idea-plugin>

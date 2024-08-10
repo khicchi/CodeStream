@@ -65,6 +65,7 @@
 ##############################################################################
 
 # Attempt to set APP_HOME
+export JAVA_HOME=/opt/homebrew/Cellar/openjdk@17/17.0.10/libexec/openjdk.jdk/Contents/Home
 
 # Resolve links: $0 may be a link
 app_path=$0
