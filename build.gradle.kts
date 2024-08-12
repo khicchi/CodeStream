@@ -32,7 +32,7 @@ repositories {
 // Dependencies are managed with Gradle version catalog - read more: https://docs.gradle.org/current/userguide/platforms.html#sub:version-catalog
 dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.11.0")
-    implementation("org.json:json:20210307")
+    implementation("org.json:json:20240303")
 
     testImplementation(libs.junit)
     implementation(kotlin("stdlib-jdk8"))
